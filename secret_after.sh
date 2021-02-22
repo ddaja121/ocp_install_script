@@ -67,7 +67,7 @@ platform:
 
 fips: false
 
-pullSecret: '{"auths":{"$harbor_ip":{"auth":"YWRtaW46R29vZG1pdDEh","email":"goodca@goodmit.co.kr"}}}'
+pullSecret: '{"auths":{"$harbor_ip":{"auth":"YWRtaW46R29vZG1pdDEh","email":"계정"}}}'
 sshKey: "sshKey: $(cat ~/.ssh/id_rsa.pub)"
 additionalTrustBundle: |
 $(cat /etc/pki/ca-trust/source/anchors/ca.crt)
